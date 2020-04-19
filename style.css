@@ -1,0 +1,260 @@
+body {
+    background-color: #f6f6f6;
+    margin: 0;
+    font-family: 'roboto', sans-serif; 
+}
+a {
+    text-decoration: none;   
+    color: black
+   
+}
+.navbar {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar-menu {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+#active {
+    color: grey;
+}
+
+.navbar-menu li:hover{
+    color: grey;
+}
+
+.navbar-menu i {
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navbar-menu i:hover {
+    color: grey;
+}
+
+.header {
+    background-image: url('./asserts/img/corona_virus_cabecalho.jpg');   
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color:#e2e2e2;
+    padding: 20px 20px;
+  
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 812;
+}
+
+
+
+.card {
+    width: 420px;
+    margin:30px;
+
+}
+
+
+
+.card-header img{
+    border-radius: 3px 3px 0 0;
+    width: 100%;
+}
+
+.card-body {
+    text-align: center;
+    padding: 15px 25px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card-content h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.card-content h2 {
+    margin-top: 5px;    
+    font-size: 12px;
+    font-weight: 100;
+    color: grey;
+
+}
+
+.card-content p {
+    font-size: 12px;
+}
+
+.card-footer {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    color: grey;
+}
+
+.saibaMais{
+    background-color: #c9f8a6;
+    padding: 30px; 
+    text-align: left; 
+}
+.saibaMais h2{
+    font-size: 30px;
+    color: rgb(245, 126, 22);
+}
+
+.img_logo{
+    width: 200px;
+}
+.saibaMais ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.saibaMais li{
+    font-size: 20px;
+    list-style: none;
+}
+
+.saibaMais a{
+    text-decoration: none;    
+    color: slateblue;
+}
+
+.sobre{
+    background-color:purple;
+    padding: 30px;  
+    text-align: justify;   
+    color: snow;
+}
+.sobre h2 {
+    font-size: 30px;
+}
+
+.sobre a{
+    color: steelblue;
+    text-decoration: none;
+}
+
+
+container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .form-contact {
+    width: 100%;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #B22222;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }
+
+.contato{
+    background-color:rgba(107, 69, 212, 0.664);
+    padding: 30px;  
+    text-align: left;       
+}
+.contato h2 {
+    font-size: 30px;
+    color: #B22222;
+}
+footer {
+    background-color: #28283c;    
+    color: white;
+    text-align: right;
+    padding: 30px 30px 20px;
+    
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
